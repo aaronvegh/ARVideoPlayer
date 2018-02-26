@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		93975DDD20424FEF000F60EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93975DDC20424FEF000F60EE /* AppDelegate.swift */; };
-		93975DDF20424FEF000F60EE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93975DDE20424FEF000F60EE /* ViewController.swift */; };
+		93975DDF20424FEF000F60EE /* PlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93975DDE20424FEF000F60EE /* PlayerViewController.swift */; };
 		93975DE220424FEF000F60EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93975DE020424FEF000F60EE /* Main.storyboard */; };
 		93975DE420424FEF000F60EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93975DE320424FEF000F60EE /* Assets.xcassets */; };
 		93975DE720424FEF000F60EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93975DE520424FEF000F60EE /* LaunchScreen.storyboard */; };
+		93975DEF204253BD000F60EE /* VideoPlayerNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93975DEE204253BD000F60EE /* VideoPlayerNode.swift */; };
+		93975DF520425F7E000F60EE /* blackpanther.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 93975DF420425F7E000F60EE /* blackpanther.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		93975DD920424FEF000F60EE /* ARVideoPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARVideoPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		93975DDC20424FEF000F60EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		93975DDE20424FEF000F60EE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		93975DDE20424FEF000F60EE /* PlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerViewController.swift; sourceTree = "<group>"; };
 		93975DE120424FEF000F60EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		93975DE320424FEF000F60EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		93975DE620424FEF000F60EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		93975DE820424FEF000F60EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93975DEE204253BD000F60EE /* VideoPlayerNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerNode.swift; sourceTree = "<group>"; };
+		93975DF420425F7E000F60EE /* blackpanther.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = blackpanther.mp4; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +59,13 @@
 			isa = PBXGroup;
 			children = (
 				93975DDC20424FEF000F60EE /* AppDelegate.swift */,
-				93975DDE20424FEF000F60EE /* ViewController.swift */,
+				93975DDE20424FEF000F60EE /* PlayerViewController.swift */,
+				93975DEE204253BD000F60EE /* VideoPlayerNode.swift */,
 				93975DE020424FEF000F60EE /* Main.storyboard */,
 				93975DE320424FEF000F60EE /* Assets.xcassets */,
 				93975DE520424FEF000F60EE /* LaunchScreen.storyboard */,
 				93975DE820424FEF000F60EE /* Info.plist */,
+				93975DF420425F7E000F60EE /* blackpanther.mp4 */,
 			);
 			path = ARVideoPlayer;
 			sourceTree = "<group>";
@@ -125,6 +131,7 @@
 			files = (
 				93975DE720424FEF000F60EE /* LaunchScreen.storyboard in Resources */,
 				93975DE420424FEF000F60EE /* Assets.xcassets in Resources */,
+				93975DF520425F7E000F60EE /* blackpanther.mp4 in Resources */,
 				93975DE220424FEF000F60EE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -136,8 +143,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				93975DDF20424FEF000F60EE /* ViewController.swift in Sources */,
+				93975DDF20424FEF000F60EE /* PlayerViewController.swift in Sources */,
 				93975DDD20424FEF000F60EE /* AppDelegate.swift in Sources */,
+				93975DEF204253BD000F60EE /* VideoPlayerNode.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
