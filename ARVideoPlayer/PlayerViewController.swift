@@ -46,6 +46,8 @@ class PlayerViewController: UIViewController {
         if sender.state == .ended {
             guard let currentFrame = sceneView.session.currentFrame else { return }
             let videoPlayerNode = VideoPlayerNode()
+            // ssh, until we apply the `displayTransform` to the currentFrame somehow,
+            // this will only work if we hold the phone in landscape right. 😬
 
             let size = CGSize(width: 1.0, height: 0.65)
             let viewerPlane = SCNPlane(width: size.width, height: size.height)
