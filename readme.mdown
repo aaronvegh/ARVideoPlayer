@@ -1,5 +1,5 @@
 # ARVideoPlayer
-It's an experiment to show a video using Apple's ARKit.
+It's an experiment to show a video using Apple's ARKit. Click this image to see a video of it in action.
 
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=qWg23eyM26U" target="_blank"><img src="http://img.youtube.com/vi/qWg23eyM26U/0.jpg" 
 alt="ARVideoPlayer" width="240" height="180" border="10" /></a>
